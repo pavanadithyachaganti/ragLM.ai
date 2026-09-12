@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "JudgeLab",
+  title: "ragLM.ai",
   description:
     "A chat assistant for your documents. Ask a question and choose the response you prefer.",
 };
