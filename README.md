@@ -1,4 +1,4 @@
-# JudgeLab
+# ragLM.ai
 
 A chat assistant for your documents. Add documents on the left, ask a question,
 and every answer comes back as **two response options** so you can keep the one
@@ -43,10 +43,4 @@ answers.
   Anthropic via the official SDK, Groq (OpenAI-compatible) and Gemini via REST.
 - `lib/catalog.ts` holds the model list — ids drift, so edit them there.
 
-## Deploy on Render
 
-1. New **Web Service** from the repo.
-2. Build: `npm install && npm run build`. Start: `npm start`.
-3. Add the provider env vars you want live.
-
-Not a static site (it has server API routes) — deploy as a Node web service.
